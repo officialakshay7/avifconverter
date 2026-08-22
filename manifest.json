@@ -1,0 +1,13 @@
+{
+  "name": "AVIF Converter",
+  "short_name": "AVIF Converter",
+  "description": "Convert AVIF images to JPG or PNG for free, entirely in your browser.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0c11",
+  "theme_color": "#0a0c11",
+  "icons": [
+    { "src": "/assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

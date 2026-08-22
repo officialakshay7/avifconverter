@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AVIF to JPG Converter — Free & Private Online Tool</title>
+<meta name="description" content="Convert AVIF images to JPG for free in your browser. Adjustable quality, batch support, no uploads and no sign-up required." />
+<meta name="theme-color" content="#0a0c11" />
+<link rel="canonical" href="https://avifconverter.online/avif-to-jpg.html" />
+<meta name="robots" content="index, follow" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://avifconverter.online/avif-to-jpg.html" />
+<meta property="og:title" content="AVIF to JPG Converter — Free & Private Online Tool" />
+<meta property="og:description" content="Convert AVIF images to JPG for free in your browser. Adjustable quality, batch support, no uploads and no sign-up required." />
+<meta property="og:site_name" content="AVIF Converter" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="AVIF to JPG Converter — Free & Private Online Tool" />
+<meta name="twitter:description" content="Convert AVIF images to JPG for free in your browser. Adjustable quality, batch support, no uploads and no sign-up required." />
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" href="/assets/icons/icon-32.png" type="image/png" sizes="32x32" />
+<link rel="icon" href="/assets/icons/icon-16.png" type="image/png" sizes="16x16" />
+<link rel="apple-touch-icon" href="/assets/icons/icon-180.png" />
+<link rel="manifest" href="/manifest.json" />
+<link rel="stylesheet" href="/assets/css/style.css" />
+
+</head>
+<body class="min-h-screen bg-ink-950 font-sans text-ink-100 antialiased ">
+
+  <header class="sticky top-0 z-50 border-b border-surface-border/80 bg-ink-950/85 backdrop-blur">
+    <div class="container-page flex h-16 items-center justify-between">
+      <a href="/" class="flex items-center gap-2 shrink-0">
+        <span class="flex h-8 w-8 items-center justify-center rounded-lg bg-avif/15 text-avif">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 16.5V7.5C4 6.67157 4.67157 6 5.5 6H18.5C19.3284 6 20 6.67157 20 7.5V16.5C20 17.3284 19.3284 18 18.5 18H5.5C4.67157 18 4 17.3284 4 16.5Z" stroke="currentColor" stroke-width="1.6"/><path d="M8 14L10.2 11.2C10.6 10.68 11.34 10.66 11.76 11.16L13.5 13.2L15 11.5C15.42 11.02 16.14 11.03 16.55 11.52L18 13.3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="9.5" r="1" fill="currentColor"/></svg>
+        </span>
+        <span class="text-[15px] font-bold tracking-tight text-ink-50">AVIF<span class="text-avif">Converter</span></span>
+      </a>
+
+      <nav class="hidden items-center gap-1 md:flex">
+        <a href="/" class="rounded-lg px-3 py-2 text-sm font-medium transition hover:bg-surface-raised hover:text-ink-50 text-ink-300">Home</a>
+        <div class="group relative">
+          <button class="flex items-center gap-1 rounded-lg px-3 py-2 text-sm font-medium text-ink-300 transition hover:bg-surface-raised hover:text-ink-50" aria-haspopup="true">
+            Tools
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" class="mt-px transition group-hover:rotate-180"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="invisible absolute left-0 top-full w-64 translate-y-1 rounded-xl border border-surface-border bg-surface-raised p-2 opacity-0 shadow-2xl shadow-black/40 transition-all duration-150 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+            <a href="/avif-to-jpg.html" class="flex items-start gap-3 rounded-lg p-2.5 hover:bg-surface">
+              <span class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-md bg-jpg/15 text-xs font-bold text-jpg">JPG</span>
+              <span>
+                <span class="block text-sm font-semibold text-ink-50">AVIF to JPG</span>
+                <span class="block text-xs text-ink-400">Best for photos &amp; sharing</span>
+              </span>
+            </a>
+            <a href="/avif-to-png.html" class="flex items-start gap-3 rounded-lg p-2.5 hover:bg-surface">
+              <span class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-md bg-png/15 text-xs font-bold text-png">PNG</span>
+              <span>
+                <span class="block text-sm font-semibold text-ink-50">AVIF to PNG</span>
+                <span class="block text-xs text-ink-400">Keeps transparency</span>
+              </span>
+            </a>
+          </div>
+        </div>
+        <a href="/blog/" class="rounded-lg px-3 py-2 text-sm font-medium transition hover:bg-surface-raised hover:text-ink-50 text-ink-300">Blog</a>
+        <a href="/faq.html" class="rounded-lg px-3 py-2 text-sm font-medium transition hover:bg-surface-raised hover:text-ink-50 text-ink-300">FAQ</a>
+        <a href="/about.html" class="rounded-lg px-3 py-2 text-sm font-medium transition hover:bg-surface-raised hover:text-ink-50 text-ink-300">About</a>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <a href="/#converter" class="btn-secondary hidden !px-4 !py-2 text-xs sm:inline-flex">Open converter</a>
+        <button id="mobileNavBtn" class="flex h-10 w-10 items-center justify-center rounded-lg border border-surface-border text-ink-200 md:hidden" aria-label="Open menu" aria-expanded="false">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 7H20M4 12H20M4 17H20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobileNav" class="hidden border-t border-surface-border bg-ink-950 md:hidden">
+      <div class="container-page flex flex-col gap-1 py-3">
+        <a href="/" class="rounded-lg px-3 py-2 text-sm font-medium transition hover:bg-surface-raised hover:text-ink-50 text-ink-300">Home</a>
+        <button id="mobileToolsBtn" class="flex items-center justify-between rounded-lg px-3 py-2 text-left text-sm font-medium text-ink-300 hover:bg-surface-raised hover:text-ink-50">
+          Tools
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" id="mobileToolsChevron"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div id="mobileToolsPanel" class="hidden flex-col gap-1 pl-3">
+          <a href="/avif-to-jpg.html" class="rounded-lg px-3 py-2 text-sm text-ink-400 hover:bg-surface-raised hover:text-ink-50">AVIF to JPG</a>
+          <a href="/avif-to-png.html" class="rounded-lg px-3 py-2 text-sm text-ink-400 hover:bg-surface-raised hover:text-ink-50">AVIF to PNG</a>
+        </div>
+        <a href="/blog/" class="rounded-lg px-3 py-2 text-sm font-medium transition hover:bg-surface-raised hover:text-ink-50 text-ink-300">Blog</a>
+        <a href="/faq.html" class="rounded-lg px-3 py-2 text-sm font-medium transition hover:bg-surface-raised hover:text-ink-50 text-ink-300">FAQ</a>
+        <a href="/about.html" class="rounded-lg px-3 py-2 text-sm font-medium transition hover:bg-surface-raised hover:text-ink-50 text-ink-300">About</a>
+        <a href="/contact.html" class="rounded-lg px-3 py-2 text-sm font-medium transition hover:bg-surface-raised hover:text-ink-50 text-ink-300">Contact</a>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="container-page pt-6">
+    <nav class="flex flex-wrap items-center gap-1.5 text-xs text-ink-500" aria-label="Breadcrumb">
+      <a href="/" class="hover:text-ink-200">Home</a><span class="text-ink-600">/</span><span class="text-ink-300">AVIF to JPG</span>
+    </nav>
+  </div>
+
+
+  <section id="converter" class="relative overflow-hidden">
+    <div class="pointer-events-none absolute inset-0 bg-dotgrid bg-dotgrid opacity-40 [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_40%,transparent_100%)]"></div>
+    <div class="container-page relative py-14 sm:py-20">
+      <div class="mx-auto max-w-3xl text-center">
+        <span class="badge">
+          <span class="h-1.5 w-1.5 rounded-full bg-jpg"></span>
+          AVIF → JPG
+        </span>
+        <h1 class="mt-5 text-4xl font-extrabold tracking-tight text-ink-50 sm:text-5xl">Convert <span class="text-jpg">AVIF to JPG</span> in seconds</h1>
+        <p class="mx-auto mt-4 max-w-xl text-base leading-7 text-ink-300 sm:text-lg">Turn AVIF photos into universally supported JPG files. Adjust quality, keep detail, and download instantly — nothing ever leaves your browser.</p>
+      </div>
+
+      <div class="mx-auto mt-10 max-w-3xl" data-converter data-mode="jpg">
+        <div data-support-warning class="mb-4 hidden rounded-xl border border-jpg/30 bg-jpg/10 px-4 py-3 text-sm text-jpg-soft">
+          Your browser may not support decoding AVIF images. Conversion might fail — try the latest Chrome, Edge, or Firefox.
+        </div>
+
+        <div
+          data-dropzone
+          class="group relative flex cursor-pointer flex-col items-center justify-center rounded-2xl border-2 border-dashed border-surface-border bg-surface px-6 py-14 text-center transition hover:border-avif/60 hover:bg-avif/[0.04]"
+        >
+          <div class="flex h-14 w-14 animate-floaty items-center justify-center rounded-2xl bg-avif/15 text-avif">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 16V4M12 4L7 9M12 4L17 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 16V17.5C4 18.8807 5.11929 20 6.5 20H17.5C18.8807 20 20 18.8807 20 17.5V16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <p class="mt-4 text-base font-semibold text-ink-50">Drop your .avif files here</p>
+          <p class="mt-1 text-sm text-ink-400">or click to browse — batches are fine</p>
+          <button type="button" data-browse-btn class="btn-primary mt-5">Choose AVIF files</button>
+          <input type="file" data-file-input accept=".avif,image/avif" multiple class="hidden" />
+          <p class="mt-5 text-xs text-ink-500">Files never leave your device. Everything runs locally in this tab.</p>
+        </div>
+
+        <div class="mt-4 flex flex-wrap items-center justify-between gap-3">
+          <div class="flex flex-wrap items-center gap-4">
+            
+            <div data-quality-wrap class="flex items-center gap-2">
+              <label class="text-xs font-medium text-ink-400" for="qualitySlider">JPG quality</label>
+              <input type="range" min="10" max="100" value="90" id="qualitySlider" data-quality-slider class="h-1.5 w-28 cursor-pointer accent-avif" />
+              <span data-quality-value class="w-10 text-xs font-semibold text-ink-200">90%</span>
+            </div>
+          </div>
+          <span data-file-counter class="text-xs text-ink-500"></span>
+        </div>
+
+        <div data-empty-state class="mt-4 hidden rounded-2xl border border-surface-border bg-surface px-6 py-10 text-center text-sm text-ink-500">
+          Converted files will show up here.
+        </div>
+
+        <div data-file-list class="mt-4 hidden divide-y divide-surface-border overflow-hidden rounded-2xl border border-surface-border bg-surface"></div>
+
+        <div class="mt-4 flex items-center justify-end gap-3" data-clear-all-wrap>
+          <button data-clear-all class="btn-secondary hidden !px-4 !py-2 text-xs">Clear all</button>
+          <button data-download-all class="btn-primary hidden !px-4 !py-2 text-xs">Download all</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="border-y border-surface-border bg-surface/40">
+    <div class="container-page grid grid-cols-2 gap-6 py-10 sm:grid-cols-4">
+      
+        <div class="text-center">
+          <p class="text-2xl font-extrabold text-ink-50 sm:text-3xl">100%</p>
+          <p class="mt-1 text-xs text-ink-400 sm:text-sm">Runs in your browser</p>
+        </div>
+        <div class="text-center">
+          <p class="text-2xl font-extrabold text-ink-50 sm:text-3xl">0</p>
+          <p class="mt-1 text-xs text-ink-400 sm:text-sm">Files uploaded to a server</p>
+        </div>
+        <div class="text-center">
+          <p class="text-2xl font-extrabold text-ink-50 sm:text-3xl">∞</p>
+          <p class="mt-1 text-xs text-ink-400 sm:text-sm">Free conversions, no limits</p>
+        </div>
+        <div class="text-center">
+          <p class="text-2xl font-extrabold text-ink-50 sm:text-3xl"><1s</p>
+          <p class="mt-1 text-xs text-ink-400 sm:text-sm">Typical conversion time</p>
+        </div>
+    </div>
+  </section>
+
+
+  <section class="container-page py-16 sm:py-20">
+    <div class="mx-auto max-w-2xl text-center">
+      <h2 class="text-3xl font-bold tracking-tight text-ink-50">Convert AVIF to JPG in three steps</h2>
+      <p class="mt-3 text-ink-400">No installs, no watermark, no learning curve.</p>
+    </div>
+    <div class="mx-auto mt-12 grid max-w-4xl gap-6 sm:grid-cols-3">
+      
+        <div class="card relative">
+          <span class="text-xs font-bold text-jpg">Step 1</span>
+          <h3 class="mt-2 text-lg font-semibold text-ink-50">Add your AVIF photos</h3>
+          <p class="mt-2 text-sm leading-6 text-ink-400">Drop them onto the box above or click to browse. Single files and full batches both work the same way.</p>
+        </div>
+        <div class="card relative">
+          <span class="text-xs font-bold text-jpg">Step 2</span>
+          <h3 class="mt-2 text-lg font-semibold text-ink-50">Set your JPG quality</h3>
+          <p class="mt-2 text-sm leading-6 text-ink-400">Use the slider to balance sharpness against file size — 90% is a solid default for most photos.</p>
+        </div>
+        <div class="card relative">
+          <span class="text-xs font-bold text-jpg">Step 3</span>
+          <h3 class="mt-2 text-lg font-semibold text-ink-50">Download your JPGs</h3>
+          <p class="mt-2 text-sm leading-6 text-ink-400">Grab files one at a time or use Download All to save the whole batch in a few clicks.</p>
+        </div>
+    </div>
+  </section>
+
+<section class="container-page pb-4 sm:pb-8">
+  <div class="prose-blog mx-auto max-w-3xl">
+    <h2 class="!mt-0">The fastest way to turn AVIF photos into JPG files</h2>
+    <p>JPG is still the most universally recognized image format on the internet, and there's a good reason it hasn't gone anywhere in three decades: almost every device, app, and website knows exactly what to do with it. AVIF is newer, smaller, and technically more efficient, but it's not accepted everywhere yet — which is exactly the moment this <strong>AVIF to JPG converter</strong> is built for. Drop in your AVIF photo, and you'll have a standard .jpg file ready to upload, email, or print within seconds.</p>
+    <p>This page is a focused version of our main converter, tuned specifically for JPG output. If you already know you want a JPG rather than a PNG, this is the quicker route — the format is locked in, so there's one less decision to make before you start converting.</p>
+
+    <h2>Why convert AVIF to JPG specifically</h2>
+    <p>AVIF files are compact and look great in a modern browser, but they run into trouble the moment they leave that environment. Marketplaces like Etsy and Amazon often expect JPG uploads. Older printers and photo labs may not recognize AVIF at all. Some email clients render it as a broken image icon instead of a photo. Even certain versions of design software will simply refuse to open the file. Converting to JPG sidesteps every one of those problems at once, because JPG support is effectively universal.</p>
+    <p>JPG also happens to be a great structural match for what AVIF photos usually contain: continuous-tone images with lots of natural color variation, like portraits, landscapes, and product photography. Both formats use lossy compression tuned for exactly that kind of content, so converting between them rarely introduces the kind of visible artifacts you'd see converting, say, a screenshot full of sharp text.</p>
+
+    <h2>How the quality slider actually affects your file</h2>
+    <p>The quality setting controls how aggressively the JPG encoder compresses your image. At the high end (95-100%), you'll get a file that's nearly indistinguishable from the source, at the cost of a larger file size. Dial it down toward 70-80% and the file shrinks noticeably, with a small, usually unnoticeable softening of fine detail — a common sweet spot for web use, where load time matters more than pixel-perfect sharpness. Below about 60%, compression artifacts like blockiness around sharp edges start to become visible, which is worth avoiding for anything you plan to print or zoom into.</p>
+    <p>There's no universally "correct" setting — it depends on what you're using the image for. A photo going into a printed brochure deserves a higher quality setting than a thumbnail that will be displayed at 200 pixels wide on a product listing. The nice part about converting locally is that you can drag the slider, watch the file size update in real time, and re-download instantly if you want to try a different value — there's no server round-trip slowing that experimentation down.</p>
+
+    <h2>What happens to transparency</h2>
+    <p>One thing worth knowing before you convert: JPG doesn't support transparency. If your AVIF file has a transparent background — say, it's a logo or a product cutout — converting it to JPG will fill that transparent area with solid white rather than leaving it see-through. For images like that, our <a href="/avif-to-png.html">AVIF to PNG converter</a> is the better choice, since PNG preserves transparency exactly as it was in the original file. If you're converting a straightforward photograph without any transparent regions, this won't affect you at all.</p>
+
+    <h2>Batch converting AVIF photos to JPG</h2>
+    <p>If you've exported an entire photo library or camera roll as AVIF and need JPGs instead, you don't need to convert them one at a time. Select or drag your whole batch onto the dropzone, and each file processes independently and in parallel, right there in the file list. Once everything shows "Ready," the Download All button pulls every converted JPG down at once, so you're not clicking through a folder of individual downloads. The list also shows exactly how the file size changed for each image, which is handy if you're trying to keep an entire batch under a size limit for an upload form or CMS.</p>
+
+    <h2>Private by design</h2>
+    <p>Because this tool decodes and re-encodes your images directly in the browser using the HTML canvas element, your photos are never transmitted anywhere. That matters more than it might seem — plenty of "free" converters route your images through a server, sometimes storing them for analytics, training data, or simply because deleting files immediately is more effort than leaving them. Here, there's no server in the loop at all for the actual image data, so there's nothing to accidentally retain, leak, or repurpose. That's a meaningful difference if you're converting anything personal, unpublished, or client-confidential.</p>
+    <p>Whenever you're ready, drop your AVIF files into the tool above and you'll have JPGs downloaded before you've finished reading the next paragraph on this page.</p>
+  </div>
+</section>
+
+
+  <section id="faq-jpg" class="container-page py-16 sm:py-20">
+    <div class="mx-auto max-w-2xl text-center">
+      <h2 class="text-3xl font-bold tracking-tight text-ink-50">AVIF to JPG — common questions</h2>
+      <p class="mt-3 text-ink-400">Quick answers about converting AVIF images to JPG.</p>
+    </div>
+    <div class="mx-auto mt-10 max-w-3xl divide-y divide-surface-border rounded-2xl border border-surface-border bg-surface">
+      
+        <div>
+          <button data-accordion-trigger aria-expanded="false" class="flex w-full items-center justify-between gap-4 px-6 py-5 text-left">
+            <span class="text-sm font-semibold text-ink-50 sm:text-base">Does converting AVIF to JPG reduce quality?</span>
+            <span data-accordion-icon class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-surface-border text-ink-300 transition-transform duration-200">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+          <div class="hidden px-6 pb-5 text-sm leading-6 text-ink-400">JPG uses lossy compression, so there's some quality trade-off, but at quality settings of 85% and above the difference is very hard to notice by eye. You control this with the quality slider before downloading.</div>
+        </div>
+        <div>
+          <button data-accordion-trigger aria-expanded="false" class="flex w-full items-center justify-between gap-4 px-6 py-5 text-left">
+            <span class="text-sm font-semibold text-ink-50 sm:text-base">What happens to transparent backgrounds?</span>
+            <span data-accordion-icon class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-surface-border text-ink-300 transition-transform duration-200">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+          <div class="hidden px-6 pb-5 text-sm leading-6 text-ink-400">JPG doesn't support transparency, so any transparent areas in your AVIF file will be filled with solid white in the converted JPG. Use the PNG converter instead if you need to keep transparency.</div>
+        </div>
+        <div>
+          <button data-accordion-trigger aria-expanded="false" class="flex w-full items-center justify-between gap-4 px-6 py-5 text-left">
+            <span class="text-sm font-semibold text-ink-50 sm:text-base">Can I convert a whole folder of AVIF images to JPG at once?</span>
+            <span data-accordion-icon class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-surface-border text-ink-300 transition-transform duration-200">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+          <div class="hidden px-6 pb-5 text-sm leading-6 text-ink-400">Yes — drag multiple files onto the dropzone and they'll all convert in parallel. Download All saves the entire batch without extra clicks.</div>
+        </div>
+        <div>
+          <button data-accordion-trigger aria-expanded="false" class="flex w-full items-center justify-between gap-4 px-6 py-5 text-left">
+            <span class="text-sm font-semibold text-ink-50 sm:text-base">Is there a file size or file count limit?</span>
+            <span data-accordion-icon class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-surface-border text-ink-300 transition-transform duration-200">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+          <div class="hidden px-6 pb-5 text-sm leading-6 text-ink-400">No. You can convert as many AVIF images as you like, of essentially any size your browser can handle, with no daily cap.</div>
+        </div>
+        <div>
+          <button data-accordion-trigger aria-expanded="false" class="flex w-full items-center justify-between gap-4 px-6 py-5 text-left">
+            <span class="text-sm font-semibold text-ink-50 sm:text-base">Will this work if I'm offline?</span>
+            <span data-accordion-icon class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-surface-border text-ink-300 transition-transform duration-200">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+          <div class="hidden px-6 pb-5 text-sm leading-6 text-ink-400">Once the page has fully loaded, conversion happens locally, so it will keep working even without an internet connection.</div>
+        </div>
+    </div>
+  </section>
+
+
+  <section class="container-page pb-16 sm:pb-20">
+    <div class="mx-auto max-w-4xl rounded-3xl border border-surface-border bg-gradient-to-br from-png/10 via-surface to-surface p-10 text-center sm:p-14">
+      <h2 class="text-2xl font-bold text-ink-50 sm:text-3xl">Need to keep transparency instead?</h2>
+      <p class="mx-auto mt-3 max-w-xl text-ink-400">PNG preserves transparent backgrounds exactly as they were in your AVIF file.</p>
+      <a href="/avif-to-png.html" class="btn-primary mt-7">Go to AVIF → PNG</a>
+    </div>
+  </section>
+
+
+  <footer class="border-t border-surface-border bg-ink-950">
+    <div class="container-page grid grid-cols-2 gap-8 py-14 sm:grid-cols-2 md:grid-cols-5">
+      <div class="col-span-2">
+        <a href="/" class="flex items-center gap-2">
+          <span class="flex h-8 w-8 items-center justify-center rounded-lg bg-avif/15 text-avif">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 16.5V7.5C4 6.67157 4.67157 6 5.5 6H18.5C19.3284 6 20 6.67157 20 7.5V16.5C20 17.3284 19.3284 18 18.5 18H5.5C4.67157 18 4 17.3284 4 16.5Z" stroke="currentColor" stroke-width="1.6"/><path d="M8 14L10.2 11.2C10.6 10.68 11.34 10.66 11.76 11.16L13.5 13.2L15 11.5C15.42 11.02 16.14 11.03 16.55 11.52L18 13.3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="9.5" r="1" fill="currentColor"/></svg>
+          </span>
+          <span class="text-[15px] font-bold tracking-tight text-ink-50">AVIF<span class="text-avif">Converter</span></span>
+        </a>
+        <p class="mt-4 max-w-xs text-sm leading-6 text-ink-400">
+          A free, private AVIF converter that runs entirely in your browser. No uploads, no accounts, no waiting on a server queue.
+        </p>
+      </div>
+      <div>
+        <p class="text-xs font-semibold uppercase tracking-wider text-ink-500">Tools</p>
+        <ul class="mt-4 space-y-3 text-sm text-ink-400">
+          <li><a href="/" class="hover:text-ink-100">AVIF to JPG &amp; PNG</a></li>
+          <li><a href="/avif-to-jpg.html" class="hover:text-ink-100">AVIF to JPG</a></li>
+          <li><a href="/avif-to-png.html" class="hover:text-ink-100">AVIF to PNG</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-xs font-semibold uppercase tracking-wider text-ink-500">Resources</p>
+        <ul class="mt-4 space-y-3 text-sm text-ink-400">
+          <li><a href="/blog/" class="hover:text-ink-100">Blog</a></li>
+          <li><a href="/faq.html" class="hover:text-ink-100">FAQ</a></li>
+          <li><a href="/about.html" class="hover:text-ink-100">About</a></li>
+          <li><a href="/contact.html" class="hover:text-ink-100">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-xs font-semibold uppercase tracking-wider text-ink-500">Legal</p>
+        <ul class="mt-4 space-y-3 text-sm text-ink-400">
+          <li><a href="/privacy-policy.html" class="hover:text-ink-100">Privacy Policy</a></li>
+          <li><a href="/terms-of-service.html" class="hover:text-ink-100">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-surface-border">
+      <div class="container-page flex flex-col items-center justify-between gap-3 py-6 text-xs text-ink-500 sm:flex-row">
+        <p>© 2026 AVIFConverter.online — All conversions happen locally in your browser.</p>
+        <p>Built for speed. No cookies, no tracking pixels.</p>
+      </div>
+    </div>
+  </footer>
+<script src="/assets/js/main.js" defer></script>
+<script src="/assets/js/converter.js" defer></script>
+</body>
+</html>
