@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://avifconverter.online/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://avifconverter.online/avif-to-jpg.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://avifconverter.online/avif-to-png.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://avifconverter.online/avif-to-jpg</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://avifconverter.online/avif-to-png</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://avifconverter.online/blog/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://avifconverter.online/blog/what-is-avif-image-format.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://avifconverter.online/blog/avif-vs-jpg-comparison.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://avifconverter.online/blog/avif-vs-png-comparison.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://avifconverter.online/blog/how-to-convert-avif-online.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://avifconverter.online/blog/avif-browser-support-guide.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://avifconverter.online/blog/reduce-image-file-size-guide.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://avifconverter.online/faq.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://avifconverter.online/about.html</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://avifconverter.online/contact.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://avifconverter.online/privacy-policy.html</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
-  <url><loc>https://avifconverter.online/terms-of-service.html</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://avifconverter.online/blog/what-is-avif-image-format</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://avifconverter.online/blog/avif-vs-jpg-comparison</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://avifconverter.online/blog/avif-vs-png-comparison</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://avifconverter.online/blog/how-to-convert-avif-online</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://avifconverter.online/blog/avif-browser-support-guide</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://avifconverter.online/blog/reduce-image-file-size-guide</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://avifconverter.online/faq</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://avifconverter.online/about</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://avifconverter.online/contact</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://avifconverter.online/privacy-policy</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://avifconverter.online/terms-of-service</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
 </urlset>
